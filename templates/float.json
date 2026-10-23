@@ -1,0 +1,38 @@
+{
+  "name": "float",
+  "file_name": "float_brain_sheet",
+  "title": "Float Shift Brain Sheet",
+  "subtitle": "One column per patient, unit-orientation notes, and a catch-up plan. Blank form - write in; no patient data is stored.",
+  "patients": 4,
+  "column_titles": ["Patient 1", "Patient 2", "Patient 3", "Patient 4"],
+  "handoff_fields": [
+    { "label": "Unit / room" },
+    { "label": "Initials" },
+    { "label": "Why here", "hint": "plain-language one-liner" },
+    { "label": "How do they look to me" },
+    { "label": "Access / lines", "hint": "type - site - rate" },
+    {
+      "label": "Isolation + precautions",
+      "options": ["None", "Contact", "Droplet", "Airborne", "Enteric", "Protective"]
+    },
+    { "label": "Drips / infusions" },
+    { "label": "Meds due this shift", "hint": "time - med - route" },
+    { "label": "Labs / imaging pending" },
+    { "label": "Diet + fluid limits" },
+    { "label": "Activity / devices / gait aid" },
+    { "label": "Equipment in room", "hint": "O2, pumps, monitors" },
+    {
+      "label": "Safety flags",
+      "options": ["Fall risk", "Bed alarm", "Confusion", "Restraint", "Elopement risk", "Allergy alert"]
+    },
+    { "label": "Disposition / pending plans" },
+    { "label": "Questions / unknowns", "hint": "ask report or charge" },
+    { "label": "To-dos before I leave" }
+  ],
+  "time_slots": ["0800", "1000", "1200", "1400", "1600", "1800"],
+  "note_areas": [
+    { "title": "Unit orientation: where things live", "lines": 6 },
+    { "title": "3 things that could go wrong + my plan", "lines": 6 },
+    { "title": "Free notes", "lines": 8 }
+  ]
+}

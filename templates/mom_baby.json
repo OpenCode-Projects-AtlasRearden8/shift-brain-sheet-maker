@@ -1,0 +1,35 @@
+{
+  "name": "mom-baby",
+  "file_name": "mom_baby_brain_sheet",
+  "title": "Mom-Baby Shift Brain Sheet",
+  "subtitle": "One column per family pair: birthing parent and newborn. Blank form - write in; no patient data is stored.",
+  "patients": 3,
+  "column_titles": ["Pair 1: Parent + Newborn", "Pair 2: Parent + Newborn", "Pair 3: Parent + Newborn"],
+  "handoff_fields": [
+    { "label": "Room / couplet #s" },
+    { "label": "Initials (parent - baby)" },
+    { "label": "Delivery info", "hint": "time - route - anesthesia" },
+    { "label": "Parent: BP checks / vitals trend" },
+    { "label": "Fundus - bleeding - peri-care", "hint": "last check" },
+    { "label": "Parent: comfort / pain plan" },
+    { "label": "Parent: meds / antibiotics due" },
+    { "label": "Feeding plan", "hint": "breast - bottle - pump" },
+    { "label": "Baby: last feed + who fed" },
+    { "label": "Baby: voids - stools" },
+    { "label": "Baby: weight and labs" },
+    { "label": "Baby: jaundice check" },
+    { "label": "Discharge teaching done / next" },
+    {
+      "label": "Safety + care flags",
+      "options": ["Safe-sleep review", "Rooming-in", "Car seat done", "Hearing screen", "Follow-up booked", "Lactation consult"]
+    },
+    { "label": "Pending: labs / referrals / follow-ups" },
+    { "label": "To-dos before I leave" }
+  ],
+  "time_slots": ["0700 feed", "1000 feed", "1300 feed", "1600 feed", "1900 feed", "2200 feed"],
+  "note_areas": [
+    { "title": "Feeding log and lactation notes", "lines": 7 },
+    { "title": "Discharge checklist (parent + baby)", "lines": 6 },
+    { "title": "Free notes", "lines": 7 }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "med-surg",
+  "file_name": "med_surg_brain_sheet",
+  "title": "Med-Surg Shift Brain Sheet",
+  "subtitle": "Four-patient handoff grid, timed task columns, and free notes. Blank form - write in; no patient data is stored.",
+  "patients": 4,
+  "column_titles": ["Patient 1", "Patient 2", "Patient 3", "Patient 4"],
+  "handoff_fields": [
+    { "label": "Room" },
+    { "label": "Initials" },
+    { "label": "Dx / why here", "hint": "one-liner" },
+    { "label": "Code status" },
+    { "label": "Allergies" },
+    { "label": "Diet / fluid limits" },
+    { "label": "IV / access", "hint": "site, gauge, fluid, rate" },
+    { "label": "Drips / infusions", "hint": "drug - dose - rate" },
+    { "label": "O2 / airway" },
+    { "label": "Activity / mobility" },
+    { "label": "Labs - imaging - procedures today", "hint": "what and when" },
+    { "label": "Meds due this shift", "hint": "time - med - route" },
+    { "label": "Pain / comfort plan" },
+    {
+      "label": "Safety flags",
+      "options": ["Fall risk", "Confusion", "Bed alarm", "Isolation", "Seizure", "Restraint"]
+    },
+    { "label": "Pending: consults / orders", "hint": "who and why" },
+    { "label": "To-dos before I leave" }
+  ],
+  "time_slots": ["0700", "0900", "1100", "1300", "1500", "1700"],
+  "note_areas": [
+    { "title": "To-dos and callbacks", "lines": 6 },
+    { "title": "Education / teaching", "lines": 5 },
+    { "title": "SBAR follow-ups and free notes", "lines": 9 }
+  ]
+}
